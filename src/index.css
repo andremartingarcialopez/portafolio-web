@@ -1,13 +1,244 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /*Fuentes*/
+  body {
+    font-family: 'Rubik', sans-serif;
+  }
+
+  /*Imagen perfil*/
+  .border-img {
+    border-radius: 100%;
+    border-width: 1px;
+    box-shadow: -50px -20px 40px rgb(227 135 255 / 25%), 0px 50px 40px rgb(255 219 57 / 30%), 50px -20px 40px rgb(118 255 255 / 30%), 0 0 2pt 4pt rgb(255 255 255 / 60%);
+  }
+
+  /*bg-Animacion Main*/
+  .bg-animacion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg,
+        #74C390 0%,
+        #5DBDB6 16%,
+        #59D4E1 33%,
+        #51BCE8 50%,
+        #FA5374 66%,
+        #E46653 83%,
+        #74C390 100%);
+    animation: AnimateBG 20s ease infinite;
+  }
+
+
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+
+    100% {
+      background-position: 0% 50%
+    }
+
+  }
+
+  .font-frase1 {
+    font-family: 'Cinzel', serif;
+  }
+
+  .inovacion {
+    font-family: 'Monoton', cursive;
+  }
+
+  /*Fondo animados de los titulos*/
+  .background-titulos {
+    background-color: #f3ec78;
+    background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+    -webkit-text-fill-color: transparent;
+    animation: gradient 9s ease infinite;
+    height: fit-content;
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /*Fondos de titulos de cards*/
+  .skill-title {
+    background-color: #f3ec78;
+    background: linear-gradient(45deg, #2BC0E4, #EAECC6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+
+  }
+
+  .about-title {
+    background-color: #f3ec78;
+    background: linear-gradient(45deg, #FF886A, #FCF6CF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+
+  }
+
+  .text-shadow {
+    text-shadow: 0.1rem 0.1rem 0.5rem rgba(255, 255, 255, 0.4);
+  }
+
+/*Bg de todo el body*/
+
+.bg-body{
+  background:#0B132B;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*   .bg-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg,
+        #fff 0%,
+        #3A506B 25%,
+        #0B132B 51%,
+        #0B132B 100%);
+    animation: AnimateBG 10s ease infinite;
+  }
+
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+
+    100% {
+      background-position: 0% 50%
+    }
+  } */
+
+  /*Glass Efect*/
+  .glass {
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.0px);
+    /*Linea clave*/
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 2;
+  }
+
+  .glass-object {
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 225, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.50);
+  }
+
+  .glass-object-servicios {
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 0px 30px 0 #2BC0E4;
+    border: 1px solid #2BC0E4;
+  }
+
+  .glass-object-sobre-mi {
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 0px 30px 0 #FF886A;
+    border: 1px solid #FF886A;
+  }
+
+  .glass-object-profile {
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(4.0px);
+    /*Linea clave*/
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    box-shadow: -50px -20px 40px rgb(227 135 255 / 25%), 0px 50px 40px rgb(255 219 57 / 30%), 50px -20px 40px rgb(118 255 255 / 30%), 0 0 2pt 4pt rgb(255 255 255 / 60%);
+    z-index: 1;
+  }
+
+  /*Wave Footer*/
+  .custom-shape-divider-bottom-1654615957 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1654615957 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 80px;
+  }
+
+  .custom-shape-divider-bottom-1654615957 .shape-fill {
+    fill: #1d3557;
+  }
+
+  .degradado-instagram {
+   
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+  }
+
+
+
+
+}
+
+
+@layer components {
+
+  .efecto-hover-enlace {
+    @apply transform hover:scale-105 transition;
+  }
+
+  .titulos {
+    @apply text-center text-[30px] py-3 md:text-6xl font-[600] text-white tracking-widest uppercase;
+  }
+
+  .subtitulos {
+    @apply text-center pt-3 text-white/50 text-xl font-[600] px-2 pb-10;
+  }
+
+  .enlaces-footer{
+    @apply flex justify-center text-white/50 hover:text-white  gap-x-1 items-center;
+  }
 }
