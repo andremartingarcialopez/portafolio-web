@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <p>| Desarrolador React/Front-End |</p>
+                    <p>| Desarrollador Front-End/React |</p>
                 </div>
 
                 <div className='md:flex md:gap-x-10  grid grid-cols-2 gap-2  lg:grid lg:grid-cols-2 '>
