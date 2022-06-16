@@ -218,6 +218,58 @@
     height: fit-content;
   }
 
+  /*Pagina contacto*/
+  .whats-title {
+    background-color: #f3ec78;
+    background: linear-gradient(45deg, #00B100, #AFFFCC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+
+  }
+
+  .glass-object-whats {
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 0px 30px 0 #00B100;
+    border: 1px solid #00B100;
+  }
+
+  .call-title {
+    background-color: #f3ec78;
+    background: linear-gradient(45deg, #F2BB33, #AFFFCC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+
+  }
+
+  .glass-object-call {
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 0px 30px 0 #F2BB33;
+    border: 1px solid #F2BB33;
+  }
+
+  .email-title {
+    background-color: #f3ec78;
+    background: linear-gradient(45deg, #DE4032, #AFFFCC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+
+  }
+
+  .glass-object-email {
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 0px 30px 0 #DE4032;
+    border: 1px solid #DE4032;
+  }
+
 
 
 

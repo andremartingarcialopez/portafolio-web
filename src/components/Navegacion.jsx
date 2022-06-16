@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navegacion = () => {
     return (
@@ -14,14 +14,16 @@ const Navegacion = () => {
                     <a className='efecto-hover-enlace hover:font-semibold' href="#servicios">Servicios</a>
                     <a className='efecto-hover-enlace hover:font-semibold' href="#proyectos">Proyectos</a>
                     <a className='efecto-hover-enlace hover:font-semibold' href="#sobreMi">Sobre Mi</a>
-                    <a className='efecto-hover-enlace hover:font-semibold' href="#contacto">Contacto</a>
+                    <a className='efecto-hover-enlace hover:font-semibold' href='#contacto' > {/* TE QUEDASTE AQUIIIIIIIIIIIIIIIIIIIIIIII */}
+                        Contacto
+                    </a>
                 </div>
 
                 <div>
-                    <a className='md:flex hidden justify-center items-center gap-x-2 transform hover:scale-105 transition hover:font-semibold' href="">
+                    <Link to={"/contacto"} className='md:flex hidden justify-center items-center gap-x-2 transform hover:scale-105 transition hover:font-semibold' href="">
                         <p>Contactame</p>
                         <i class="fa-solid fa-arrow-right-long text-base"></i>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </>

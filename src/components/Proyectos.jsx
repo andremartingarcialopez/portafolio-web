@@ -14,11 +14,11 @@ const Proyectos = () => {
                         <img className='glass-object rounded-2xl w-[20rem]  lg:w-[23rem] xl:w-[25rem] hover:animate-pulse ' src="img/garlo-web.png" alt="" />
                     </a>
 
-                    <a href="https://garlo.netlify.app/" target={"_blank"}>
+                    <a href="https://proy-cucei-mindbot.herokuapp.com/" target={"_blank"}>
                         <img className='glass-object rounded-2xl  w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' src="img/minbot-web.png" alt="" />
                     </a>
 
-                    <a href="https://garlo.netlify.app/" target={"_blank"}>
+                    <a href="https://happy-pet-citas.netlify.app/" target={"_blank"}>
                         <img className='glass-object rounded-2xl an w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' src="img/happypet-web.png" alt="" />
                     </a>
                 </div>
