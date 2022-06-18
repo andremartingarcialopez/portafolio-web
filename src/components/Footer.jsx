@@ -44,7 +44,7 @@ const Footer = () => {
 
                     <a className='enlaces-footer col-span-2' target={"_blank"} href="/img/André-Martín-García-López-CV.pdf">
                         <i class="fa-solid fa-file-pdf"></i>
-                        <p>CurriculumM Vitae</p>
+                        <p>Curriculum Vitae</p>
                     </a>
 
                 </div>
