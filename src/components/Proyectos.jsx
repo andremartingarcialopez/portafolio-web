@@ -10,16 +10,16 @@ const Proyectos = () => {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col justify-center items-center lg:flex-row gap-x-5 gap-y-8 '>
-                    <a href="https://garlo.netlify.app/" target={"_blank"}>
-                        <img className='glass-object rounded-2xl w-[20rem]  lg:w-[23rem] xl:w-[25rem] hover:animate-pulse ' src="img/garlo-web.webp" alt="" />
+                    <a href="https://garlo.netlify.app/" target="_blank">
+                        <img className='glass-object rounded-2xl w-[20rem]  lg:w-[23rem] xl:w-[25rem] hover:animate-pulse ' src="img/garlo-web.webp" alt="imagen-garlo-web" />
                     </a>
 
-                    <a href="https://proy-cucei-mindbot.herokuapp.com/" target={"_blank"}>
-                        <img className='glass-object rounded-2xl  w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' src="img/mindbot-web.webp" alt="" />
+                    <a href="https://proy-cucei-mindbot.herokuapp.com/" target="_blank">
+                        <img className='glass-object rounded-2xl  w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' src="img/mindbot-web.webp" alt="imagen-mindbot-web" />
                     </a>
 
-                    <a href="https://happy-pet-citas.netlify.app/" target={"_blank"}>
-                        <img className='glass-object rounded-2xl an w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' src="img/happypet-web.webp" alt="" />
+                    <a href="https://happy-pet-citas.netlify.app/" target="_blank">
+                        <img className='glass-object rounded-2xl an w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' src="img/happypet-web.webp" alt="imagen-happyPet-web" />
                     </a>
                 </div>
             </div>
