@@ -12,7 +12,7 @@ const MainContacto = () => {
         <div className='flex flex-col lg:flex-row justify-center items-center h-[70%]'>
 
           <div className='flex justify-center items-center ' data-aos="fade-up" data-aos-duration="1000">
-            <img className='md:w-[27rem] w-[15rem] pb-7' src="img\yo3.webp" alt="imagen-contacto" />
+            <img className='md:w-[27rem] w-[15rem] pb-7' src="img\yo3.webp" width="100px" height="100px" alt="imagen-contacto" />
           </div>
 
           <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col items-around justify-around gap-y-12 pb-5 '>

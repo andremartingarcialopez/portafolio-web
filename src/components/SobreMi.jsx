@@ -11,7 +11,7 @@ const SobreMi = () => {
                 <div className='w-full gap-y-4 flex flex-col justify-center lg:justify-around lg:gap-x-20 items-center pb-20'>
 
                     <div data-aos="fade-up" data-aos-duration="1000">
-                        <img src="img/yo2.webp" className='w-[370px]  ' alt="imagen-sobre-mi" />
+                        <img src="img/yo2.webp" className='w-[370px]' width="100px" height="100px" alt="imagen-sobre-mi" />
                     </div>
 
                     <div  className='flex flex-col lg:flex-row justify-around items-around gap-y-10 lg:gap-x-10'>
