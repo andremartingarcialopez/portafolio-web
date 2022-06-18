@@ -26,7 +26,7 @@ const Servicios = () => {
                         </div>
                     </div> */}
 
-                    <img className='w-[22rem]' src="img/yo-servicios.webp" alt="imagen-servicios" />
+                    <img className='w-[22rem]' src="img/yo1.webp" alt="imagen-servicios" />
 
                     <div className='flex flex-col pt-7 lg:pt-0  justify-center items-center gap-y-[2rem]'>
 

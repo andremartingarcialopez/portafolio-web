@@ -15,7 +15,7 @@ const Proyectos = () => {
                     </a>
 
                     <a href="https://proy-cucei-mindbot.herokuapp.com/" target={"_blank"}>
-                        <img className='glass-object rounded-2xl  w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' src="img/minbot-web.webp" alt="" />
+                        <img className='glass-object rounded-2xl  w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' src="img/mindbot-web.webp" alt="" />
                     </a>
 
                     <a href="https://happy-pet-citas.netlify.app/" target={"_blank"}>
