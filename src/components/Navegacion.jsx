@@ -22,7 +22,7 @@ const Navegacion = () => {
                 <div>
                     <Link to={"/contacto"} className='md:flex hidden justify-center items-center gap-x-2 transform hover:scale-105 transition hover:font-semibold' href="">
                         <p>Contactame</p>
-                        <i class="fa-solid fa-arrow-right-long text-base"></i>
+                        <i className="fa-solid fa-arrow-right-long text-base"></i>
                     </Link>
                 </div>
             </div>

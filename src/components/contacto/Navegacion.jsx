@@ -8,9 +8,9 @@ const Navegacion = () => {
 
                 <div className=''>
                     <Link to={"/"} className='flex justify-center items-center gap-x-3 efecto-hover-enlace md:text-xl font-semibold' >
-                        <i class="fa-solid fa-arrow-left"></i>
+                        <i className="fa-solid fa-arrow-left"></i>
                         <p>André Martín García López</p>
-
+                        
                     </Link>
 
                 </div>

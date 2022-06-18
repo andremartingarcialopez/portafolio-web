@@ -6,7 +6,7 @@ const Overlay = () => {
             <div className='bg-animacion w-full h-screen md:flex flex flex-col lg:flex-row justify-center lg:gap-x-[7rem] items-center gap-y-[4rem] p-2'>
 
                 <div className='flex justify-center items-center'>
-                    <img className='border-img md:w-[400px] w-[300px] glass-object-profile' src="img\imagen-perfil.webp" alt="" />
+                    <img className='border-img md:w-[400px] w-[300px] glass-object-profile' src="img\imagen-perfil.webp" alt="imagen-perfil" />
                 </div>
 
                 <div className='flex flex-col justify-center lg:items-center lg:h-[90vh]'>

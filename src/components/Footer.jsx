@@ -38,12 +38,12 @@ const Footer = () => {
                     </a>
 
                     <a className='enlaces-footer' href="https://www.instagram.com/andre_garlop/">
-                        <i class="fa-brands fa-instagram "></i>
+                        <i className="fa-brands fa-instagram "></i>
                         <p>Instagram</p>
                     </a>
 
                     <a className='enlaces-footer col-span-2' target={"_blank"} href="/img/André-Martín-García-López-CV.pdf">
-                        <i class="fa-solid fa-file-pdf"></i>
+                        <i className="fa-solid fa-file-pdf"></i>
                         <p>Curriculum Vitae</p>
                     </a>
 

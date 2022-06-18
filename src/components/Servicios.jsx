@@ -26,13 +26,13 @@ const Servicios = () => {
                         </div>
                     </div> */}
 
-                    <img className='w-[22rem]' src="img/yo-servicios.webp" alt="" />
+                    <img className='w-[22rem]' src="img/yo-servicios.webp" alt="imagen-servicios" />
 
                     <div className='flex flex-col pt-7 lg:pt-0  justify-center items-center gap-y-[2rem]'>
 
                         <div className='glass-object-servicios px-7 w-[20rem] rounded-lg p-2'>
                             <div className='flex flex-row justify-start items-center'>
-                                <i class="fa-solid fa-laptop-code skill-title text-5xl"></i>
+                                <i className="fa-solid fa-laptop-code skill-title text-5xl"></i>
                                 <h3 className='skill-title text-center text-2xl pb-2 font-[600]'>Habilidades de Desarrollador</h3>
                             </div>
                             <p className='text-white/90'>Conocimiento de las tecnologias web HTML, CSS, Javascript y React.js. Me gusta hacer paginas web responsivas con TailwindCSS con diseños de interfaz atractivos visulamente para los usuarios.</p>

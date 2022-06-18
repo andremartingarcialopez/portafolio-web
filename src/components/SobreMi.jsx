@@ -11,7 +11,7 @@ const SobreMi = () => {
                 <div className='w-full gap-y-4 flex flex-col justify-center lg:justify-around lg:gap-x-20 items-center pb-20'>
 
                     <div data-aos="fade-up" data-aos-duration="1000">
-                        <img src="img/yo2.webp" className='w-[370px]  ' alt="" />
+                        <img src="img/yo2.webp" className='w-[370px]  ' alt="imagen-sobre-mi" />
                     </div>
 
                     <div  className='flex flex-col lg:flex-row justify-around items-around gap-y-10 lg:gap-x-10'>
@@ -26,7 +26,7 @@ const SobreMi = () => {
 
                         <div data-aos="fade-up" data-aos-duration="1000" className='glass-object-sobre-mi w-[20rem] rounded-2xl py-2 px-3'>
                             <div className='flex justify-center md:justify-start items-baseline gap-x-2 about-title text-2xl lg:text-2xl'>
-                                <i class="fa-solid fa-person-running"></i>
+                                <i className="fa-solid fa-person-running"></i>
                                 <h3 className='text-center pb-2 font-[600] uppercase'>Deporte</h3>
                             </div>
                             <p className='text-white/80 text-left'>Me considero una persona activa/atlética por lo cual disfruto mucho cada día el hacer actividad física por ejemplo hacer ejercicio, salir a caminar o mi actividad favortita, salir a correr.</p>
@@ -35,8 +35,8 @@ const SobreMi = () => {
                         <div data-aos="fade-up" data-aos-duration="1000" className='glass-object-sobre-mi w-[20rem] rounded-2xl py-2 px-3'>
                             <div className='flex justify-center md:justify-start items-baseline gap-x-2 about-title text-2xl lg:text-2xl'>
                                 <div>
-                                    <i class="fa-solid fa-music"></i>
-                                    <i class="fa-solid fa-gamepad"></i>
+                                    <i className="fa-solid fa-music"></i>
+                                    <i className="fa-solid fa-gamepad"></i>
                                 </div>
                                 <h3 className='text-left pb-2 font-[600] uppercase'> Musica y Videojuegos</h3>
 
