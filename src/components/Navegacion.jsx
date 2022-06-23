@@ -7,7 +7,7 @@ const Navegacion = () => {
             <div className='glass z-100 text-white/70 hover:text-white md:flex block pl-2 itemes-center justify-around py-4 fixed w-full'>
 
                 <div className=''>
-                    <a className='efecto-hover-enlace md:text-xl font-semibold block' href="#">André Martín García López</a>
+                    <a className='efecto-hover-enlace md:text-xl font-semibold block px-2' href="#">André Martín García López</a>
                 </div>
 
                 <div className='lg:flex gap-x-4 md:ml-[-100px] hidden'>
