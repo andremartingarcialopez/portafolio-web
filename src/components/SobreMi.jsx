@@ -41,7 +41,7 @@ const SobreMi = () => {
                                 <h3 className='text-left pb-2 font-[600] uppercase'> Musica y Videojuegos</h3>
 
                             </div>
-                            <p className='text-white/80 text-left'>En mi tiempo libre me encanta jugar videojuegos, disfruto escuchar música para relajarme un poco como también me gusta tocar la guitarra y mezclar música.</p>
+                            <p className='text-white/80 text-left'>En mi tiempo libre me encanta jugar videojuegos, disfruto mucho escuchar música para relajarme un poco como también me gusta tocar la guitarra y mezclar música.</p>
                         </div>
 
                     </div>
@@ -51,7 +51,7 @@ const SobreMi = () => {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="1000" className='pt-4'>
-                    <h2 className='text-shadow titulos'> Responsable. Perseverante. Trabajador.</h2>
+                    <h2 className='text-shadow titulos'> Trabajador. Responsable. Diciplinado. Perseverante.</h2>
                     <a className='subtitulos md:text-2xl' href="https://www.instagram.com/andre_garlop/" target={"_blank"}>¿Quieres saber más sobre mí? <br /> Visita mi <span className='degradado-instagram'>Instagram</span> </a>
                 </div>
 
