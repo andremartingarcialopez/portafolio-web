@@ -11,7 +11,7 @@ const Overlay = () => {
 
                 <div className='flex flex-col justify-center lg:items-center lg:h-[90vh]'>
 
-                    <h1 className='text-shadow titulos text-white/70'>Desarrollador<br />
+                    <h1 className='text-shadow titulos text-white/70'>Desarrollador Web Jr<br />
                         <p className='md:pt-5'>Front-End/React</p>
                     </h1>
 
