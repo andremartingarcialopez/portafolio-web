@@ -12,7 +12,7 @@ const Overlay = () => {
                 <div className='flex flex-col justify-center lg:items-center lg:h-[90vh]'>
 
                     <h1 className='text-shadow titulos text-white/70'>Desarrollador Jr<br />
-                        <p className='md:pt-5'>Front-End/React</p>
+                        <p className='md:pt-5'>JavaScript</p>
                     </h1>
 
                     <div className='flex flex-row justify-center items-baseline pt-5 gap-x-3 text-xl text-black/50'>
