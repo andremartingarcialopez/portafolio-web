@@ -28,8 +28,15 @@ const Proyectos = () => {
                         </a>
                         <p className='w-[20rem] text-center pt-2 text-white/90 '>Simulación de una tienda web de cursos en el cual podemos agregar y quitar cursos a nuestro carrito de compras</p>
                         <p className='w-[20rem] text-center pt-2 text-white/90 '> <span className='font-bold'>Tecnologías:</span> <span className='text-[#E44D25]'>HTML</span>, <span className='text-[#264de4]'>CSS</span>, <span className='text-[#d6bb32]'>JavaScript</span></p>
+                    </div>
 
-
+                    <div className='flex flex-col justify-center items-center '>
+                        <h4 className='font-bold text-[1.5rem] p-2 text-white/90'>Lista de tareas</h4>
+                        <a href="https://shopy-car.netlify.app/" target="_blank">
+                            <img className='glass-object rounded-2xl an w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' width="100px" height="100px" src="img/check-list.webp" alt="imagen-happyPet-web" />
+                        </a>
+                        <p className='w-[20rem] text-center pt-2 text-white/90 '>Simulación de una lista de tareas web en el cual podras agregar y eliminar tus tareas</p>
+                        <p className='w-[20rem] text-center pt-2 text-white/90 '> <span className='font-bold'>Tecnologías:</span> <span className='text-[#E44D25]'>HTML</span>, <span className='text-[#264de4]'>CSS</span>, <span className='text-[#d6bb32]'>JavaScript</span></p>
                     </div>
 
                 </div>
