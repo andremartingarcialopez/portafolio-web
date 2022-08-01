@@ -39,6 +39,15 @@ const Proyectos = () => {
                         <p className='w-[20rem] text-center pt-2 text-white/90 '> <span className='font-bold'>Tecnologías:</span> <span className='text-[#E44D25]'>HTML</span>, <span className='text-[#264de4]'>CSS</span>, <span className='text-[#d6bb32]'>JavaScript</span></p>
                     </div>
 
+                    <div className='flex flex-col justify-center items-center '>
+                        <h4 className='font-bold text-[1.5rem] p-2 text-white/90'>Email Send</h4>
+                        <a href="https://email-send.netlify.app/" target="_blank">
+                            <img className='glass-object rounded-2xl an w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' width="100px" height="100px" src="img/simulador-email.webp" alt="imagen-proyecto-simulador-de-envio-de-email" />
+                        </a>
+                        <p className='w-[20rem] text-center pt-2 text-white/90 '>Pagina web en donde se simula el envio de un email</p>
+                        <p className='w-[20rem] text-center pt-2 text-white/90 '> <span className='font-bold'>Tecnologías:</span> <span className='text-[#E44D25]'>HTML</span>, <span className='text-[#264de4]'>CSS</span>, <span className='text-[#38bdf8]'>TailwindCSS</span>, <span className='text-[#d6bb32]'>JavaScript</span></p>
+                    </div>
+
                 </div>
             </div>
         </>
