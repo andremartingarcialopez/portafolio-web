@@ -57,6 +57,15 @@ const Proyectos = () => {
                         <p className='w-[20rem] text-center pt-2 text-white/90 '> <span className='font-bold'>Tecnologías:</span> <span className='text-[#E44D25]'>HTML</span>, <span className='text-[#264de4]'>CSS</span>, <span className='text-[#d6bb32]'>JavaScript</span></p>
                     </div>
 
+                    <div className='flex flex-col justify-center items-center '>
+                        <h4 className='font-bold text-[1.5rem] p-2 text-white/90'>Seguro de Autos</h4>
+                        <a href="https://seguro-autos.netlify.app/" target="_blank">
+                            <img className='glass-object rounded-2xl an w-[20rem] lg:w-[23rem] xl:w-[25rem] hover:animate-pulse' width="100px" height="100px" src="img/seguro-auto.webp" alt="imagen-proyecto-simulador-de-seguro-de-autos" />
+                        </a>
+                        <p className='w-[20rem] text-center pt-2 text-white/90 '>Página web que simula el cotizar el seguro de un auto el cual el resultado va a ser variado por la región, año y el tipo de seguro del auto</p>
+                        <p className='w-[20rem] text-center pt-2 text-white/90 '> <span className='font-bold'>Tecnologías:</span> <span className='text-[#E44D25]'>HTML</span>, <span className='text-[#264de4]'>CSS</span>, <span className='text-[#38bdf8]'>TailwindCSS</span>, <span className='text-[#d6bb32]'>JavaScript</span></p>
+                    </div>
+
                 </div>
             </div>
         </>
